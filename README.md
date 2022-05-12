@@ -97,7 +97,7 @@ done()
 [GitHub Pages](https://www.markdownguide.org/cheat-sheet/)
 
 # Imagen
-[GitHub pages](https://tec.mx/sites/default/files/repositorio/Home/tec-de-monterrey-newsroom.jpg)
+![GitHub pages](https://tec.mx/sites/default/files/repositorio/Home/tec-de-monterrey-newsroom.jpg)
 
 # Tabla
 | Syntax | Description |
