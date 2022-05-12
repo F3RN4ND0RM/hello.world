@@ -1,18 +1,18 @@
 # hello.world
 Repositorio de trabajos para semana tec
 
-#Carlos Fernando Ramos Mena
-##Carlos Fernando Ramos Mena
-###Carlos Fernando Ramos Mena
+# Carlos Fernando Ramos Mena
+## Carlos Fernando Ramos Mena
+### Carlos Fernando Ramos Mena
 
-#Estilo
+#E stilo
 -Negrita **Este texto es negrita**
 -Cursiva *Este texto es cursiva*
 -Tachado -Este texto es tachado-
 -Negrita y anidad **Este texto es _extremadamente_ imprtante**
 -Todo en negrita y cursiva, ***Este texto es importante***
 
-#Emojis
+# Emojis
 -🐊
 -🎱
 -🎇
@@ -20,13 +20,13 @@ Repositorio de trabajos para semana tec
 # Citas de Texto
 >ITESM
 
-#Enlace
+# Enlace
 [GitHub Pages](https://www.markdownguide.org/cheat-sheet/)
 
-#Imagen
+# Imagen
 [GitHub pages](https://tec.mx/sites/default/files/repositorio/Home/tec-de-monterrey-newsroom.jpg)
 
-#MAPA
+# MAPA
   geojson
   {
     "type": "Polygon",
