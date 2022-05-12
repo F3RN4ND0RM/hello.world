@@ -5,7 +5,7 @@ Repositorio de trabajos para semana tec
 ## Carlos Fernando Ramos Mena
 ### Carlos Fernando Ramos Mena
 
-#E stilo
+# Estilo
 - Negrita **Este texto es negrita**
 - Cursiva *Este texto es cursiva*
 - Tachado ~Este texto es tachado~
@@ -97,7 +97,7 @@ done()
 [GitHub Pages](https://www.markdownguide.org/cheat-sheet/)
 
 # Imagen
-[GitHub pages](https://tec.mx/sites/default/files/repositorio/Home/tec-de-monterrey-newsroom.jpg)
+![GitHub pages](https://tec.mx/sites/default/files/repositorio/Home/tec-de-monterrey-newsroom.jpg)
 
 # Tabla
 | Syntax | Description |
