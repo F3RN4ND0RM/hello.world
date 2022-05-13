@@ -84,6 +84,7 @@ def draw():
     update()
     ontimer(draw, 100)
     tapCount()
+    alumnos_info()
 
 
 def tapCount():
@@ -94,8 +95,14 @@ def tapCount():
     writer.goto(-100,190)
     writer.color("blue")
     writer.write("# taps: "+ str(count))
-    
 
+def alumnos_info():
+    writer=Turtle()
+    writer.hideturtle()
+    writer.up()
+    writer.goto(0,190)
+    writer.color("blue")
+    writer.write("Carlos Fernando Ramos Mena A01197622")
 
 shuffle(tiles)
 setup(420, 420, 370, 0)
