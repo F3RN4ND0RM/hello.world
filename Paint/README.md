@@ -1,6 +1,6 @@
 # Actividad 2 Modificacón del juego paint
 ## Autor:
--Carlos Fernando Ramos Mena A01197622
+- Carlos Fernando Ramos Mena A01197622
 
 ## Funciones agregadas
 ### def_info_alumnos()
@@ -39,7 +39,7 @@
 - Autor: Carlos Fernando Ramos Mena
 - Código:
   ```python
-def rectangle(start, end):
+  def rectangle(start, end):
     """Draw rectangle from start to end."""
     up()
     goto(start.x, start.y)
@@ -62,7 +62,7 @@ def rectangle(start, end):
 - Autor: Carlos Fernando Ramos Mena
 -Código:
   ```python
-def triangle(start, end):
+  def triangle(start, end):
     """Draw triangle from start to end."""
     up()
     goto(start.x, start.y)
