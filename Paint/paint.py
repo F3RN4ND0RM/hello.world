@@ -94,7 +94,12 @@ def tap(x, y):
 def store(key, value):
     """Store value in state at key."""
     state[key] = value
-
+    
+def info_alumnos():
+    up()
+    goto(0,190)
+    color("blue")
+    write("Carlos Ramos A01197622")
 
 state = {'start': None, 'shape': line}
 setup(420, 420, 370, 0)
@@ -111,4 +116,5 @@ onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
 onkey(lambda: store('shape', rectangle), 'r')
 onkey(lambda: store('shape', triangle), 't')
+info_alumnos()
 done()
