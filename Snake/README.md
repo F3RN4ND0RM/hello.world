@@ -65,4 +65,4 @@
                 food.y = y    
   ```
   ###GIF
-  ![](snakeGig.gif)
+  ![](sankeGig.gif)
