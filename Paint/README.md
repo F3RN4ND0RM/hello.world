@@ -79,6 +79,8 @@
 
     end_fill()
     ```
+    ## GIF
+    ![](PruebaPaint.gif)
     ## Ejemplos:
    <a href="https://drive.google.com/uc?export=view&id=1AOWGJ2ZHkgyffqDzxjbQAgSMzIkndRe3"><img src="https://drive.google.com/uc?export=view&id=1AOWGJ2ZHkgyffqDzxjbQAgSMzIkndRe3" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 
