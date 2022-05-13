@@ -52,7 +52,7 @@
   ```
 
 ## Actualización de código principal:
-- Se creo lsito de colores para que la serpiente y la comida iniciaran de diferente color cada ves
+- Se creo lista de colores para que la serpiente y la comida iniciaran de diferente color cada vez
 - Autor: Carlos Fernando Ramos Mena
 - Código:
 ```python
