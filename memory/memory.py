@@ -18,6 +18,7 @@ car = path('car.gif')
 tiles = list(range(32)) * 2
 state = {'mark': None}
 hide = [True] * 64
+count = 0
 
 
 def square(x, y):
@@ -54,6 +55,9 @@ def tap(x, y):
         hide[spot] = False
         hide[mark] = False
         state['mark'] = None
+    global count
+    count = count + 1
+
 
 
 def draw():
@@ -79,6 +83,18 @@ def draw():
 
     update()
     ontimer(draw, 100)
+    tapCount()
+
+
+def tapCount():
+    global count
+    writer=Turtle()
+    writer.hideturtle()
+    writer.up()
+    writer.goto(-100,190)
+    writer.color("blue")
+    writer.write("# taps: "+ str(count))
+    
 
 
 shuffle(tiles)
