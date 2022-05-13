@@ -80,5 +80,5 @@
     end_fill()
     ```
     ## Ejemplos:
-    ![GitHub pages](https://drive.google.com/file/d/1AOWGJ2ZHkgyffqDzxjbQAgSMzIkndRe3/view?usp=sharing)
-    ![GitHub pages](https://drive.google.com/file/d/12aCG9Qnr_oEKZTO7r7anvsW71llHk2Iq/view?usp=sharing)
+    ![image](https://drive.google.com/uc?export=view&id=<1AOWGJ2ZHkgyffqDzxjbQAgSMzIkndRe3>)
+    ![image](https://drive.google.com/uc?export=view&id=<12aCG9Qnr_oEKZTO7r7anvsW71llHk2Iq>)
