@@ -19,13 +19,13 @@
   - Despliega los datos del autor dentro del programa
   - Código:
   ```python
-  def alumnos_info():
-      writer=Turtle()
-      writer.hideturtle()
-      writer.up()
-      writer.goto(0,190)
-      writer.color("blue")
-      writer.write("Carlos Fernando Ramos Mena A01197622")
+    def alumnos_info():
+        writer=Turtle()
+        writer.hideturtle()
+        writer.up()
+        writer.goto(0,190)
+        writer.color("blue")
+        writer.write("Carlos Fernando Ramos Mena A01197622")
   ```
   ### def tapCount()::
   - Autor: Carlos Fernando Ramos Mena
