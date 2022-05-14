@@ -47,7 +47,7 @@
     - Autor: Carlos Fernando Ramos Mena
     - Se le añadio el llamado a la funcion alumnos info() y puntuacion() y se cambio el tamaño de letra a 10
     - Codigo:
-    ```python
+    ```python3
       def draw():
           """Draw image and tiles."""
           clear()
@@ -80,7 +80,7 @@
     - Autor: Carlos Fernando Ramos Mena
     - Se agrego la variable count para contar el numero de tapas y la variable points que suma los puntos
     - Código:
-    ```python
+    ```python3
       def tap(x, y):
           """Update mark and hidden tiles based on tap."""
           spot = index(x, y)
