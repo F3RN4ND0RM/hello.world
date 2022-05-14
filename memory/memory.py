@@ -19,7 +19,7 @@ tiles = list(range(32)) * 2
 state = {'mark': None}
 hide = [True] * 64
 count = 0
-
+points =0
 
 def square(x, y):
     """Draw white square with black outline at (x, y)."""
@@ -50,11 +50,13 @@ def tap(x, y):
     mark = state['mark']
 
     if mark is None or mark == spot or tiles[mark] != tiles[spot]:
-        state['mark'] = spot
+        state['mark'] = spot        
     else:
         hide[spot] = False
         hide[mark] = False
         state['mark'] = None
+        global points
+        points = points +1        
     global count
     count = count + 1
 
@@ -80,10 +82,13 @@ def draw():
         goto(x + 2, y)
         color('black')
         write(tiles[mark], font=('Arial', 30, 'normal'))
+        
 
     update()
     ontimer(draw, 100)
     tapCount()
+    alumnos_info()
+    puntuacion()
 
 
 def tapCount():
@@ -94,8 +99,24 @@ def tapCount():
     writer.goto(-100,190)
     writer.color("blue")
     writer.write("# taps: "+ str(count))
-    
 
+def alumnos_info():
+    writer=Turtle()
+    writer.hideturtle()
+    writer.up()
+    writer.goto(0,190)
+    writer.color("blue")
+    writer.write("Carlos Fernando Ramos Mena A01197622")
+
+def puntuacion():
+    if points == 32:
+            writer=Turtle()
+            writer.hideturtle()
+            writer.up()
+            writer.goto(-180,0)
+            writer.color("blue")
+            writer.write("felicidades ganaste un auto",font=('Arial', 20, 'normal'))
+    
 
 shuffle(tiles)
 setup(420, 420, 370, 0)
