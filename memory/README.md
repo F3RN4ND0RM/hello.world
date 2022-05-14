@@ -1,5 +1,5 @@
-#Carlos Fernando Ramos Mena A01197622
-##Funciones Añadidas
+# Carlos Fernando Ramos Mena A01197622
+## Funciones Añadidas
 ### def puntuacion():
   - Autor: Carlos Fernando Ramos Mena
   - Calcula los puntos de las celdas descubiertas y despliega el mensaje ganador
