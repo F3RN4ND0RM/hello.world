@@ -31,7 +31,7 @@
   - Autor: Carlos Fernando Ramos Mena
   - Cuenta el número de Taps dentro del programa
   - Código:
-  ```python
+  ```python3
     def tapCount():
         global count
         writer=Turtle()
