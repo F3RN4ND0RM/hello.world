@@ -48,33 +48,33 @@
     - Se le añadio el llamado a la funcion alumnos info() y puntuacion() y se cambio el tamaño de letra a 10
     - Codigo:
     ```python
-    def draw():
-      """Draw image and tiles."""
-      clear()
-      goto(0, 0)
-      shape(car)
-      stamp()
+      def draw():
+          """Draw image and tiles."""
+          clear()
+          goto(0, 0)
+          shape(car)
+          stamp()
 
-      for count in range(64):
-          if hide[count]:
-              x, y = xy(count)
-              square(x, y)
+          for count in range(64):
+              if hide[count]:
+                  x, y = xy(count)
+                  square(x, y)
 
-      mark = state['mark']
+          mark = state['mark']
 
-      if mark is not None and hide[mark]:
-          x, y = xy(mark)
-          up()
-          goto(x + 2, y)
-          color('black')
-          write(tiles[mark], font=('Arial',10, 'normal'))
+          if mark is not None and hide[mark]:
+              x, y = xy(mark)
+              up()
+              goto(x + 2, y)
+              color('black')
+              write(tiles[mark], font=('Arial',10, 'normal'))
 
 
-      update()
-      ontimer(draw, 100)
-      tapCount()
-      alumnos_info()
-      puntuacion()
+          update()
+          ontimer(draw, 100)
+          tapCount()
+          alumnos_info()
+          puntuacion()
     ```
    ### def tap():
     - Autor: Carlos Fernando Ramos Mena
