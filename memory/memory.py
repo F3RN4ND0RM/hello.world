@@ -13,9 +13,8 @@ from random import *
 from turtle import *
 
 from freegames import path
-
 car = path('car.gif')
-tiles = list(range(32)) * 2
+tiles = list(("usa","india","brazil","france","germany","UK","russia","south_K","italy","turkey","spain","vietnam","argentina","netherlands","japan","iran","australia","colombia","poland","mexico","Bulgaria","Camboya","Congo","Cuba","Salvador","Guatemala","Grecia","Haiti","Jamaica","kenia","Madagascar","Monaco")) * 2
 state = {'mark': None}
 hide = [True] * 64
 count = 0
@@ -81,7 +80,7 @@ def draw():
         up()
         goto(x + 2, y)
         color('black')
-        write(tiles[mark], font=('Arial', 30, 'normal'))
+        write(tiles[mark], font=('Arial',10, 'normal'))
         
 
     update()
@@ -114,7 +113,7 @@ def puntuacion():
             writer.hideturtle()
             writer.up()
             writer.goto(-180,0)
-            writer.color("blue")
+            writer.color("White")
             writer.write("felicidades ganaste un auto",font=('Arial', 20, 'normal'))
     
 
