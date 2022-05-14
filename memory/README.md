@@ -97,10 +97,10 @@
           global count
           count = count + 1
     ```
-    ## GIF
-    ![](MEMORY..gif)    
-    ## Imagenes
-    <a href="https://drive.google.com/uc?export=view&id=1krk6quy4zeKftvjpOST3_e7vn8MhkkAC"><img src="https://drive.google.com/uc?export=view&id=1krk6quy4zeKftvjpOST3_e7vn8MhkkAC" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
+## GIF
+![](MEMORY..gif)    
+## Imagenes
+<a href="https://drive.google.com/uc?export=view&id=1krk6quy4zeKftvjpOST3_e7vn8MhkkAC"><img src="https://drive.google.com/uc?   export=view&id=1krk6quy4zeKftvjpOST3_e7vn8MhkkAC" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 <a href="https://drive.google.com/uc?export=view&id=1puaWWQ0blg9qtyrqFwHVun9iRdaYhEBR"><img src="https://drive.google.com/uc?export=view&id=1puaWWQ0blg9qtyrqFwHVun9iRdaYhEBR" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 <a href="https://drive.google.com/uc?export=view&id=1RRVm0VpEGJSO4SQKQJbPAcLH47q3sOSn"><img src="https://drive.google.com/uc?export=view&id=1RRVm0VpEGJSO4SQKQJbPAcLH47q3sOSn" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 
